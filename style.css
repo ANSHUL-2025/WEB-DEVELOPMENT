@@ -2,5 +2,19 @@ h3{
     color:red
 }
 body{
-    background-color:blue;
+ 
 }
+
+input[type="text"] {
+    border:2px solid blue;
+}
+input[type="password"] {
+    border:2px solid green;
+}
+a:hover{
+    color:rgb(62, 133, 133);
+}
+p::first-letter{
+    font-size: 200%;
+    color: burlywood;
+} 
